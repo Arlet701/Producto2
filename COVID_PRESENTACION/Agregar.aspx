@@ -6,7 +6,7 @@
     <br />
     <br />
     <br />
-    Seleccione el registro que desea hacer:
+    Seleccione el registro que desea consultar:
     <asp:DropDownList ID="DropDownList1" runat="server">
     </asp:DropDownList>
     <br />
