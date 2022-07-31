@@ -13,9 +13,13 @@ namespace COVID_BL
         Consulta BD = new Consulta();
         Insertar IN = new Insertar();
 <<<<<<< HEAD
+<<<<<<< HEAD
         Eliminar EL = new Eliminar();
 =======
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+        Eliminar EL = new Eliminar();
+>>>>>>> 2109f26 (Elimina datos)
 
         public DataTable Alum()
         {
@@ -62,6 +66,7 @@ namespace COVID_BL
             return BD.ConsultaMedico();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         public DataTable Inc()
         {
             return BD.ConsultaIncapacidad();
@@ -70,22 +75,30 @@ namespace COVID_BL
 =======
 >>>>>>> a4a1657 (Se crean inserciones)
 
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void AgregaAl(string Matricula, string Nombre, string Ap_pat, string Ap_mat, string Genero, string Correo, string Celular, int F_EdoCivil)
         {
             IN.AgregarAl(Matricula, Nombre, Ap_pat, Ap_mat, Genero, Correo, Celular, F_EdoCivil);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void AgregaProf(int Reg, string Nombre, string Ap_pat, string Ap_Mat, string Genero, string Cat, string Correo, string Celular, int F_EdoCivil)
         {
             IN.AgregarPro(Reg, Nombre, Ap_pat, Ap_Mat, Genero, Cat, Correo, Celular, F_EdoCivil);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void AgregaCuat(string Periodo, int anio, string inicio, string Fin, string Extra)
         {
             IN.AgregarCua(Periodo, anio, inicio, Fin, Extra);
@@ -111,9 +124,12 @@ namespace COVID_BL
             IN.AgregarPosAlum(FechaConfirmado, Comprobacion, Antecedentes, Riesgo, NumContagio, Extra, F_Alumno);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void AgregaSegPro(int F_positivoProfe, int F_medico, string Fecha, string Form_Comunica, string Reporte, string Entrevista, string Extra)
         {
             IN.AgregaSegPro(F_positivoProfe, F_medico, Fecha, Form_Comunica, Reporte, Entrevista, Extra);
@@ -123,14 +139,20 @@ namespace COVID_BL
             IN.AgregaSegAL(F_positivoAL, F_medico, Fecha, Form_Comunica, Reporte, Entrevista, Extra);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void AgregaMed(string Nombre, string App, string Apm, string telefono, string correo, string horario, string especialidad, string extra)
         {
             IN.AgregaMedico(Nombre, App, Apm, telefono, correo, horario, especialidad, extra);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2109f26 (Elimina datos)
         public void EliminaAlumno(string Matricula)
         {
             EL.EliminarAlumno(Matricula);
@@ -175,8 +197,11 @@ namespace COVID_BL
         {
             EL.EliminarMedico(Nombre, App, Apm);
         }
+<<<<<<< HEAD
 =======
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+>>>>>>> 2109f26 (Elimina datos)
     }
 
 }

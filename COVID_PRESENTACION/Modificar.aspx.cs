@@ -12,6 +12,7 @@ namespace COVID_PRESENTACION
         protected void Page_Load(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             
 =======
             if (!IsPostBack)
@@ -78,6 +79,9 @@ namespace COVID_PRESENTACION
                 Response.Redirect("medico.aspx");
             }
 >>>>>>> a4a1657 (Se crean inserciones)
+=======
+            
+>>>>>>> 2109f26 (Elimina datos)
         }
     }
 }
