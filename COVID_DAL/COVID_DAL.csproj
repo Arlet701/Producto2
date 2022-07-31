@@ -43,7 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consulta.cs" />
+<<<<<<< HEAD
     <Compile Include="Eliminar.cs" />
+=======
+>>>>>>> a4a1657 (Se crean inserciones)
     <Compile Include="Insertar.cs" />
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\AlumnoGrupo.cs" />

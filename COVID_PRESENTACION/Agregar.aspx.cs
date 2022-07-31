@@ -32,6 +32,7 @@ namespace COVID_PRESENTACION
         {
             if (DropDownList1.SelectedItem.Text == "Alumno")
             {
+<<<<<<< HEAD
                 Response.Redirect("AgregarAlumno.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Profesor")
@@ -73,6 +74,49 @@ namespace COVID_PRESENTACION
             else if (DropDownList1.SelectedItem.Text == "Medico")
             {
                 Response.Redirect("Agregarmedico.aspx");
+=======
+                Response.Redirect("Alumno.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Profesor")
+            {
+                Response.Redirect("Profesor.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Cuatrimestre")
+            {
+                Response.Redirect("Cuatrimestre.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Grupo Cuatrimestre")
+            {
+                Response.Redirect("GrpCuatri.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Alumno Grupo")
+            {
+                Response.Redirect("AlumnoGrupo.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Profe Grupo")
+            {
+                Response.Redirect("ProfeGrupo.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "positivo Profe")
+            {
+                Response.Redirect("posProfe.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "positivo Alumno")
+            {
+                Response.Redirect("posAlumno.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Seguimiento PRO")
+            {
+                Response.Redirect("segprof.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Seguimiento AL")
+            {
+                Response.Redirect("segalum.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Medico")
+            {
+                Response.Redirect("medico.aspx");
+>>>>>>> a4a1657 (Se crean inserciones)
             }
 
         }

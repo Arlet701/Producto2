@@ -6,7 +6,11 @@
     <br />
     <br />
     <br />
+<<<<<<< HEAD
     Seleccione el registro que desea consultar:
+=======
+    Seleccione el registro que desea hacer:
+>>>>>>> a4a1657 (Se crean inserciones)
     <asp:DropDownList ID="DropDownList1" runat="server">
     </asp:DropDownList>
     <br />

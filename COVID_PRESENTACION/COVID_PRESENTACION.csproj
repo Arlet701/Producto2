@@ -71,10 +71,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Agregar.aspx" />
+<<<<<<< HEAD
     <Content Include="AgregarAlumno.aspx" />
     <Content Include="AgregarAlumnoGrupo.aspx" />
     <Content Include="Consulta.aspx" />
     <Content Include="AgregarCuatrimestre.aspx" />
+=======
+    <Content Include="Alumno.aspx" />
+    <Content Include="AlumnoGrupo.aspx" />
+    <Content Include="Consulta.aspx" />
+    <Content Include="Cuatrimestre.aspx" />
+>>>>>>> a4a1657 (Se crean inserciones)
     <Content Include="Eliminar.aspx" />
     <Content Include="EliminarAlumno.aspx" />
     <Content Include="EliminarAlumnoGrupo.aspx" />
@@ -88,6 +95,7 @@
     <Content Include="Eliminarsegalum.aspx" />
     <Content Include="Eliminarsegprof.aspx" />
     <Content Include="Estilos\Estilo.css" />
+<<<<<<< HEAD
     <Content Include="AgregarGrpCuatri.aspx" />
     <Content Include="Incapacidad.aspx" />
     <Content Include="Index.aspx" />
@@ -99,6 +107,22 @@
     <Content Include="AgregarProfesor.aspx" />
     <Content Include="Agregarsegalum.aspx" />
     <Content Include="Agregarsegprof.aspx" />
+=======
+    <Content Include="GrpCuatri.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="medico.aspx" />
+    <Content Include="Modificar.aspx" />
+    <Content Include="posAlumno.aspx" />
+    <Content Include="posProfe.aspx" />
+    <Content Include="ProfeGrupo.aspx" />
+    <Content Include="Profesor.aspx" />
+    <Content Include="Script\bootstrap.min.css" />
+    <Content Include="Script\bootstrap.min.js" />
+    <Content Include="Script\jquery-3.6.0.min.js" />
+    <Content Include="Script\popper.min.js" />
+    <Content Include="segalum.aspx" />
+    <Content Include="segprof.aspx" />
+>>>>>>> a4a1657 (Se crean inserciones)
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +133,7 @@
     <Compile Include="Agregar.aspx.designer.cs">
       <DependentUpon>Agregar.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="AgregarAlumno.aspx.cs">
       <DependentUpon>AgregarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,6 +147,21 @@
     </Compile>
     <Compile Include="AgregarAlumnoGrupo.aspx.designer.cs">
       <DependentUpon>AgregarAlumnoGrupo.aspx</DependentUpon>
+=======
+    <Compile Include="Alumno.aspx.cs">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumno.aspx.designer.cs">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlumnoGrupo.aspx.cs">
+      <DependentUpon>AlumnoGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlumnoGrupo.aspx.designer.cs">
+      <DependentUpon>AlumnoGrupo.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
     <Compile Include="Consulta.aspx.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
@@ -130,12 +170,21 @@
     <Compile Include="Consulta.aspx.designer.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="AgregarCuatrimestre.aspx.cs">
       <DependentUpon>AgregarCuatrimestre.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AgregarCuatrimestre.aspx.designer.cs">
       <DependentUpon>AgregarCuatrimestre.aspx</DependentUpon>
+=======
+    <Compile Include="Cuatrimestre.aspx.cs">
+      <DependentUpon>Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>Cuatrimestre.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
     <Compile Include="Eliminar.aspx.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
@@ -144,6 +193,7 @@
     <Compile Include="Eliminar.aspx.designer.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="EliminarAlumno.aspx.cs">
       <DependentUpon>EliminarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,6 +284,14 @@
     </Compile>
     <Compile Include="Incapacidad.aspx.designer.cs">
       <DependentUpon>Incapacidad.aspx</DependentUpon>
+=======
+    <Compile Include="GrpCuatri.aspx.cs">
+      <DependentUpon>GrpCuatri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrpCuatri.aspx.designer.cs">
+      <DependentUpon>GrpCuatri.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -242,12 +300,21 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Agregarmedico.aspx.cs">
       <DependentUpon>Agregarmedico.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Agregarmedico.aspx.designer.cs">
       <DependentUpon>Agregarmedico.aspx</DependentUpon>
+=======
+    <Compile Include="medico.aspx.cs">
+      <DependentUpon>medico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medico.aspx.designer.cs">
+      <DependentUpon>medico.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
     <Compile Include="Modificar.aspx.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
@@ -256,6 +323,7 @@
     <Compile Include="Modificar.aspx.designer.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="AgregarposAlumno.aspx.cs">
       <DependentUpon>AgregarposAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,6 +351,35 @@
     </Compile>
     <Compile Include="AgregarProfesor.aspx.designer.cs">
       <DependentUpon>AgregarProfesor.aspx</DependentUpon>
+=======
+    <Compile Include="posAlumno.aspx.cs">
+      <DependentUpon>posAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="posAlumno.aspx.designer.cs">
+      <DependentUpon>posAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="posProfe.aspx.cs">
+      <DependentUpon>posProfe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="posProfe.aspx.designer.cs">
+      <DependentUpon>posProfe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfeGrupo.aspx.cs">
+      <DependentUpon>ProfeGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfeGrupo.aspx.designer.cs">
+      <DependentUpon>ProfeGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor.aspx.cs">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor.aspx.designer.cs">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Home.Master.cs">
@@ -292,6 +389,7 @@
     <Compile Include="Home.Master.designer.cs">
       <DependentUpon>Home.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Agregarsegalum.aspx.cs">
       <DependentUpon>Agregarsegalum.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -305,6 +403,21 @@
     </Compile>
     <Compile Include="Agregarsegprof.aspx.designer.cs">
       <DependentUpon>Agregarsegprof.aspx</DependentUpon>
+=======
+    <Compile Include="segalum.aspx.cs">
+      <DependentUpon>segalum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="segalum.aspx.designer.cs">
+      <DependentUpon>segalum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="segprof.aspx.cs">
+      <DependentUpon>segprof.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="segprof.aspx.designer.cs">
+      <DependentUpon>segprof.aspx</DependentUpon>
+>>>>>>> a4a1657 (Se crean inserciones)
     </Compile>
   </ItemGroup>
   <ItemGroup>
